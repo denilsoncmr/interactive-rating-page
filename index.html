@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+
+<body>
+  <main>
+    <div class="box">
+      <div class="to-submit">
+        <img class="star" src="images/icon-star.svg" alt="Star">
+        <fieldset>
+          <legend>How did we do?</legend>
+          <p> Please let us know how we did with your support request. All feedback is appreciated
+            to help us improve our offering!</p>
+          <div class="rating">
+            <input type="radio" name="rating" value="1" id="item1" class="check-rating">
+            <label for="item1">1</label>
+
+            <input type="radio" name="rating" value="2" id="item2" class="check-rating">
+            <label for="item2">2</label>
+
+            <input type="radio" name="rating" value="3" id="item3" class="check-rating">
+            <label for="item3">3</label>
+
+            <input type="radio" name="rating" value="4" id="item4" class="check-rating">
+            <label for="item4">4</label>
+
+            <input type="radio" name="rating" value="5" id="item5" class="check-rating">
+            <label for="item5">5</label>
+
+          </div>
+          <button type="submit" onclick="submit()">Submit</button>
+        </fieldset>
+        
+      </div>
+
+
+      <div class="submited">
+        <img class="illustration-thank-you" src="images/illustration-thank-you.svg" alt="">
+        <p class="conteudo"></p>
+
+        <h1>Thank you!</h1>
+
+        <p class="feedback">We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!</p>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

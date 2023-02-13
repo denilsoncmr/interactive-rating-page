@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+p, h1{
+    color: white;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(216, 12%, 8%);
+}
+.box{
+    width: 23rem;
+    background-color: hsl(213, 19%, 15%);
+    padding: 2rem;
+    border: none;
+    border-radius: 2rem;
+}
+.star{
+    background: hsl(213, 20%, 22%);
+    padding: 0.8rem;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+}
+legend{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+fieldset p {
+    width: 23rem;
+    margin-top: 1rem;
+    color: hsl(216, 12%, 54%);
+    font-size: 1rem;
+    line-height: 140%;
+}
+.rating{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.rating label{
+    width: 1rem;
+    color: hsl(216, 12%, 54%);
+    background: hsl(213, 20%, 22%);
+    padding: 1rem;
+    border-radius: 100%;
+    text-align: center;
+}
+.rating label:hover{
+    background: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+}
+.check-rating{
+    display: none;
+}
+.check-rating:checked + label{
+    background: hsl(217, 12%, 63%);
+    color: white;
+}
+button{
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    background: hsl(25, 97%, 53%);
+    border-radius: 2rem;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+button:hover{
+    background: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+.submited{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.submited h1{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+.conteudo{
+    margin-top: 1.5rem;
+    border-radius: 2rem;
+    color: hsl(25, 97%, 40%);
+    background: hsl(213, 20%, 22%);
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    width: 10rem;
+    text-align: center;
+}
+.feedback{
+    margin-top: 1rem;
+    text-align: center;
+    color: hsl(216, 12%, 54%);
+    line-height: 150%;
+    font-size: 0.9rem;
+    width: 20.5rem;
+}
