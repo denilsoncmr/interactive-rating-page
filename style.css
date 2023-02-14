@@ -107,3 +107,17 @@ button:hover{
     font-size: 0.9rem;
     width: 20.5rem;
 }
+
+@media screen and (max-width: 500px) {
+    .box{
+        width: 300px;
+    }
+    fieldset p {
+        width: 300px;
+        font-size: 0.92rem;
+    }
+    .feedback{
+        font-size: 1rem;
+    }
+    
+}
